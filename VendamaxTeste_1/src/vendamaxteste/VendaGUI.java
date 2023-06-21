@@ -15,8 +15,8 @@ public class VendaGUI extends JFrame {
     private PreparedStatement buscarUsuario;
     private PreparedStatement buscarItem;
     private DefaultTableModel modelo;
-    private JTable tabela;
-    private JTextField tfCodigoUsuario;
+    public JTable tabela;
+    public JTextField tfCodigoUsuario;
 
     public VendaGUI() throws ClassNotFoundException {
         super("Venda de Itens");
