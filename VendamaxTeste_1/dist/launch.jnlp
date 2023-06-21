@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>VendamaxTeste_1</title>
+        <vendor>cafem</vendor>
+        <homepage href=""/>
+        <description>VendamaxTeste_1</description>
+        <description kind="short">VendamaxTeste_1</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="VendamaxTeste_1.jar" main="true"/>
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+</resources>
+    <application-desc main-class="vendamaxteste.PrincipalMenu">
+    </application-desc>
+</jnlp>
